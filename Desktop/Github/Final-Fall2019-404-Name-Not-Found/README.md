@@ -1,4 +1,5 @@
-# Final CS 3541
+This application structure was set up by Professor Maclin at UMD and worked on by other students as well, this was a collaborated project.
+Final CS 3541
 
 ## Structure
 
