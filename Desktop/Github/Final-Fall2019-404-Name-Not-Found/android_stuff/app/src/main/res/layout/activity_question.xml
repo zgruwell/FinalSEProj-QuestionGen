@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#c6d7ff">
+
+    <TextView
+            android:id="@+id/QuestionView"
+            android:layout_width="307dp"
+            android:layout_height="166dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+            android:id="@+id/ansbutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginBottom="56dp"
+            android:text="Button"
+            app:layout_constraintBottom_toTopOf="@+id/ansbutton3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/QuestionView"
+            app:layout_constraintVertical_bias="0.948" />
+
+    <Button
+            android:id="@+id/ansbutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="64dp"
+            android:text="Button"
+            app:layout_constraintBottom_toTopOf="@+id/ansbutton3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/QuestionView"
+            app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+            android:id="@+id/ansbutton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/QuestionView" />
+
+    <Button
+            android:id="@+id/ansbutton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="48dp"
+            android:text="Button"
+            app:layout_constraintBottom_toTopOf="@+id/ResultButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ansbutton3"
+            app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+            android:id="@+id/ansbutton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="56dp"
+            android:text="Button"
+            app:layout_constraintBottom_toTopOf="@+id/ResultButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ansbutton3"
+            app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+            android:id="@+id/ResulttextView"
+            android:layout_width="251dp"
+            android:layout_height="70dp"
+            app:layout_constraintBottom_toTopOf="@+id/ansbutton3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/QuestionView"
+            app:layout_constraintVertical_bias="0.131" />
+
+    <Button
+            android:id="@+id/ResultButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="36dp"
+            android:text="View Result"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ansbutton3"
+            app:layout_constraintVertical_bias="0.68" />
+
+    <Button
+            android:id="@+id/QuitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="72dp"
+            android:text="Button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ResultButton"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ansbutton4"
+            app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>
